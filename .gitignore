@@ -1,0 +1,31 @@
+# Maven
+target/
+*.class
+*.jar
+!**/src/**/**.jar
+
+# IDE
+.idea/
+*.iml
+.eclipse
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Serenity generated reports (optional - comment out if you want to commit reports)
+# target/site/serenity/
+# target/cucumber-reports/
+
+# Driver binaries
+.wdm/
+drivers/
+
+# Logs
+*.log
+logs/
