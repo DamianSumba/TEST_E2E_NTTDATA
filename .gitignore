@@ -1,5 +1,8 @@
 # Maven
-target/
+target/*
+!target/site/
+!target/site/serenity/
+
 *.class
 *.jar
 !**/src/**/**.jar
@@ -18,9 +21,8 @@ target/
 .DS_Store
 Thumbs.db
 
-# Serenity generated reports (optional - comment out if you want to commit reports)
-# target/site/serenity/
-# target/cucumber-reports/
+# Serenity generated reports
+# (ahora sí permitidos explícitamente arriba)
 
 # Driver binaries
 .wdm/
