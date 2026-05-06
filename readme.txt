@@ -77,6 +77,10 @@ El proyecto fue desarrollado y probado con las siguientes versiones:
    Archivo principal del reporte:
      - target/site/serenity/index.html
 
+   REPOSITORIO DE GITHUB
+    los reportes se encutran en esta ubicación
+    https://github.com/DamianSumba/TEST_E2E_NTTDATA/blob/b82d7bf8b03878c17e64ce08c503da3de7cb8067/docs
+
    COMO VISUALIZAR LOS REPORTES
 
         1. Ejecutar las pruebas con Maven
